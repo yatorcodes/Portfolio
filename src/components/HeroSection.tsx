@@ -21,9 +21,11 @@ const HeroSection = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <div className="w-32 h-32 rounded-full bg-gradient-to-r from-purple-400 to-blue-500 p-1 animate-scale-in">
-                <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center text-4xl font-bold text-gray-600 dark:text-gray-300">
-                  👨‍💻
-                </div>
+                <img 
+                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=400&fit=crop&crop=face"
+                  alt="Emmanuel Yator"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-blue-500 blur-md opacity-60 animate-pulse" />
             </div>
@@ -31,12 +33,17 @@ const HeroSection = () => {
 
           {/* Hero Text */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            <span className="gradient-text">Full-Stack</span><br />
-            <span className="text-foreground">Developer & Writer</span>
+            <span className="text-foreground">Emmanuel</span><br />
+            <span className="gradient-text">Yator</span>
           </h1>
 
+          <h2 className="text-2xl md:text-3xl font-semibold mb-6 animate-fade-in" style={{animationDelay: '0.1s'}}>
+            <span className="gradient-text">Cybersecurity Specialist</span> & 
+            <span className="text-foreground"> Developer</span>
+          </h2>
+
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '0.2s'}}>
-            Creating digital experiences through code, crafting compelling content through words, and building solutions through freelance consulting 🚀
+            Securing digital landscapes through cybersecurity expertise, building robust network infrastructures, and creating innovative solutions through full-stack development 🔐
           </p>
 
           {/* CTA Buttons */}
